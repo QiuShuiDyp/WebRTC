@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@rongcloud/engine": "^5.7.9",
+    "@rongcloud/imlib-next": "^5.7.9",
     "video.js": "^8.3.0",
     "vue": "^3.2.47"
   },

@@ -1,12 +1,16 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@rongcloud/engine': ^5.7.9
+  '@rongcloud/imlib-next': ^5.7.9
   '@vitejs/plugin-vue': ^4.1.0
   video.js: ^8.3.0
   vite: ^4.3.9
   vue: ^3.2.47
 
 dependencies:
+  '@rongcloud/engine': 5.7.9
+  '@rongcloud/imlib-next': 5.7.9_@rongcloud+engine@5.7.9
   video.js: 8.3.0
   vue: 3.3.4
 
@@ -246,6 +250,18 @@ packages:
 
   /@jridgewell/sourcemap-codec/1.4.15:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
+
+  /@rongcloud/engine/5.7.9:
+    resolution: {integrity: sha512-wtGFSxHiQAXnnGD+fg5X4ngdkQJmSzAyKVWyuXRX3zBa+LFLedH67iQ5ANcMJ0HHVbOC0irHGi+0Z74qHBce1g==}
+    dev: false
+
+  /@rongcloud/imlib-next/5.7.9_@rongcloud+engine@5.7.9:
+    resolution: {integrity: sha512-FiufnNIXk/QIgsUQluQ6qdLPsvJ2DODTgZct0n2QVT8E/XGAe9pwzX1jjJBYAPpaLzVcELiu5ra1Uf+whgEprQ==}
+    peerDependencies:
+      '@rongcloud/engine': '=5.7.9'
+    dependencies:
+      '@rongcloud/engine': 5.7.9
+    dev: false
 
   /@videojs/http-streaming/3.0.2_video.js@8.3.0:
     resolution: {integrity: sha512-iSZkwTLGg3Rx78ypCCq/GsMME89ElNvU02xj7reCE2PlITMQjyYsER1w5AsySvT1A694u5yuSzEzLLGF1cL4pg==}
